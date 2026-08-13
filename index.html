@@ -23,6 +23,7 @@
         <a href="#services" class="nav-link">Services</a>
         <a href="#why-us" class="nav-link">Why Us</a>
         <a href="#service-areas" class="nav-link">Service Areas</a>
+        <a href="#gallery" class="nav-link">Our Work</a>
         <a href="#testimonials" class="nav-link">Reviews</a>
         <a href="#contact" class="nav-cta">Get a Quote</a>
       </nav>
@@ -351,6 +352,163 @@
     </div>
   </section>
 
+  <!-- ===== PROJECT GALLERY SLIDESHOW ===== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Real Work Photos</p>
+        <h2 class="section-title">Our Recent Plumbing Projects</h2>
+        <p class="section-subtitle">Take a look at actual plumbing installations, fittings, and repair work completed by our expert team in Miyapur &amp; Hyderabad.</p>
+      </div>
+
+      <div class="slideshow-wrapper">
+        <div class="slideshow-container" id="slideshow-container">
+          <!-- Slide 1 -->
+          <div class="slide-item active" data-index="0">
+            <div class="slide-img-wrap">
+              <img src="gallery-1.jpg" alt="Concealed Grohe Cistern &amp; Drainage Piping Installation" class="slide-img" onclick="openLightbox(0)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Concealed Grohe Cistern &amp; Pipeline Work</h3>
+              <p>Under-construction bathroom plumbing featuring Grohe concealed flush tank frame, CPVC water supply lines &amp; heavy-duty PVC drainage piping.</p>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="slide-item" data-index="1">
+            <div class="slide-img-wrap">
+              <img src="gallery-2.jpg" alt="Modern Completed Bathroom with Wall-Hung WC &amp; Vanity" class="slide-img" onclick="openLightbox(1)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Modern Bathroom &amp; Wall-Mounted WC Setup</h3>
+              <p>Fully installed wall-hung toilet closet with health faucet, chrome flush plate, designer wall tiles, and ceramic vanity wash basin.</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="slide-item" data-index="2">
+            <div class="slide-img-wrap">
+              <img src="gallery-3.jpg" alt="Indian Closet Installation &amp; Bathroom Tiling" class="slide-img" onclick="openLightbox(2)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Indian Closet &amp; Tile Fitting</h3>
+              <p>Precision-fitted squatting Indian toilet pan with step-up tiled platform, floor drain, and dual brass water taps.</p>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="slide-item" data-index="3">
+            <div class="slide-img-wrap">
+              <img src="gallery-4.jpg" alt="Precision Bathroom Flooring &amp; Slope Drainage" class="slide-img" onclick="openLightbox(3)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Bathroom Flooring &amp; Slope Drainage</h3>
+              <p>Custom non-slip tile installation with anti-clog floor drains and proper water flow slope gradient.</p>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="slide-item" data-index="4">
+            <div class="slide-img-wrap">
+              <img src="gallery-5.jpg" alt="Luxury Bathroom Shower Panel &amp; Concealed Flush" class="slide-img" onclick="openLightbox(4)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Luxury Bathroom &amp; Shower Panel Fitting</h3>
+              <p>Modern marble-finish bathroom with multi-jet shower panel, wall-hung closet, and dual-flush actuator plate.</p>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="slide-item" data-index="5">
+            <div class="slide-img-wrap">
+              <img src="gallery-6.jpg" alt="Black Granite Bathroom with Body Jets &amp; Thermostat" class="slide-img" onclick="openLightbox(5)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Black Granite Bathroom with Body Jets</h3>
+              <p>Premium dark granite wall bathroom featuring concealed body shower jets, thermostat diverter valve, and Cera wash basin.</p>
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="slide-item" data-index="6">
+            <div class="slide-img-wrap">
+              <img src="gallery-7.jpg" alt="Jaquar High-Gloss Chrome Diverter &amp; Spout Fitting" class="slide-img" onclick="openLightbox(6)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Jaquar Chrome Diverter &amp; Bath Spout</h3>
+              <p>High-precision Jaquar single-lever diverter and bath spout fitting on grey marble tile wall.</p>
+            </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="slide-item" data-index="7">
+            <div class="slide-img-wrap">
+              <img src="gallery-8.jpg" alt="Water Storage Tank, Booster Pump &amp; Filtration Plant" class="slide-img" onclick="openLightbox(7)" />
+              <span class="zoom-badge">&#128065; View Fullscreen</span>
+            </div>
+            <div class="slide-caption">
+              <h3>Water Tank, Pressure Pump &amp; Filter Plant</h3>
+              <p>Overhead 150L water tank installation with pressure booster pump setup and multi-stage water purification filters.</p>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="slide-arrow slide-prev" id="slide-prev" aria-label="Previous Slide">&#10094;</button>
+          <button class="slide-arrow slide-next" id="slide-next" aria-label="Next Slide">&#10095;</button>
+
+          <div class="slide-badge-counter">
+            <span id="current-slide-num">1</span> / 8
+          </div>
+        </div>
+
+        <!-- Thumbnails Strip -->
+        <div class="thumbnails-container">
+          <button class="thumb-item active" onclick="goToSlide(0)">
+            <img src="gallery-1.jpg" alt="Project 1" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(1)">
+            <img src="gallery-2.jpg" alt="Project 2" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(2)">
+            <img src="gallery-3.jpg" alt="Project 3" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(3)">
+            <img src="gallery-4.jpg" alt="Project 4" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(4)">
+            <img src="gallery-5.jpg" alt="Project 5" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(5)">
+            <img src="gallery-6.jpg" alt="Project 6" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(6)">
+            <img src="gallery-7.jpg" alt="Project 7" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(7)">
+            <img src="gallery-8.jpg" alt="Project 8" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" onclick="closeLightbox(event)">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Enlarged Project Photo" />
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+    <button class="lightbox-arrow lb-prev" onclick="lightboxNav(-1, event)">&#10094;</button>
+    <button class="lightbox-arrow lb-next" onclick="lightboxNav(1, event)">&#10095;</button>
+  </div>
+
+
   <!-- ===== TESTIMONIALS ===== -->
   <section class="section testimonials-section" id="testimonials">
     <div class="container">
@@ -553,7 +711,7 @@
 
     // ---- Scroll reveal ----
     const revealElements = document.querySelectorAll(
-      '.feature-card, .service-card, .intro-card, .testimonial-card, .stat-card, .cta-badge'
+      '.feature-card, .service-card, .intro-card, .testimonial-card, .stat-card, .cta-badge, .slideshow-wrapper'
     );
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -564,6 +722,130 @@
       });
     }, { threshold: 0.1 });
     revealElements.forEach(el => observer.observe(el));
+
+    // ---- Gallery Slideshow Controller ----
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide-item');
+    const thumbs = document.querySelectorAll('.thumb-item');
+    const counterNum = document.getElementById('current-slide-num');
+    const totalSlides = slides.length;
+    let autoSlideTimer = null;
+
+    function showSlide(index) {
+      if (index >= totalSlides) currentSlide = 0;
+      else if (index < 0) currentSlide = totalSlides - 1;
+      else currentSlide = index;
+
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === currentSlide);
+      });
+      thumbs.forEach((thumb, i) => {
+        thumb.classList.toggle('active', i === currentSlide);
+      });
+      if (counterNum) counterNum.textContent = currentSlide + 1;
+
+      // Auto scroll active thumbnail into view
+      if (thumbs[currentSlide]) {
+        thumbs[currentSlide].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    }
+
+    function goToSlide(index) {
+      showSlide(index);
+      resetAutoSlide();
+    }
+
+    function nextSlide() {
+      showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentSlide - 1);
+    }
+
+    const prevBtn = document.getElementById('slide-prev');
+    const nextBtn = document.getElementById('slide-next');
+    if (prevBtn) prevBtn.addEventListener('click', () => { prevSlide(); resetAutoSlide(); });
+    if (nextBtn) nextBtn.addEventListener('click', () => { nextSlide(); resetAutoSlide(); });
+
+    function startAutoSlide() {
+      stopAutoSlide();
+      autoSlideTimer = setInterval(() => {
+        nextSlide();
+      }, 3500);
+    }
+
+    function stopAutoSlide() {
+      if (autoSlideTimer) clearInterval(autoSlideTimer);
+    }
+
+    function resetAutoSlide() {
+      startAutoSlide();
+    }
+
+    const slideshowWrapper = document.getElementById('slideshow-container');
+    if (slideshowWrapper) {
+      slideshowWrapper.addEventListener('mouseenter', stopAutoSlide);
+      slideshowWrapper.addEventListener('mouseleave', startAutoSlide);
+      startAutoSlide();
+    }
+
+    // ---- Lightbox Controller ----
+    const galleryData = [
+      { src: 'gallery-1.jpg', title: 'Concealed Grohe Cistern & Pipeline Work', desc: 'Under-construction bathroom plumbing featuring Grohe concealed flush tank frame, CPVC water supply lines & heavy-duty PVC drainage piping.' },
+      { src: 'gallery-2.jpg', title: 'Modern Bathroom & Wall-Mounted WC Setup', desc: 'Fully installed wall-hung toilet closet with health faucet, chrome flush plate, designer wall tiles, and ceramic vanity wash basin.' },
+      { src: 'gallery-3.jpg', title: 'Indian Closet & Tile Fitting', desc: 'Precision-fitted squatting Indian toilet pan with step-up tiled platform, floor drain, and dual brass water taps.' },
+      { src: 'gallery-4.jpg', title: 'Bathroom Flooring & Slope Drainage', desc: 'Custom non-slip tile installation with anti-clog floor drains and proper water flow slope gradient.' },
+      { src: 'gallery-5.jpg', title: 'Luxury Bathroom & Shower Panel Fitting', desc: 'Modern marble-finish bathroom with multi-jet shower panel, wall-hung closet, and dual-flush actuator plate.' },
+      { src: 'gallery-6.jpg', title: 'Black Granite Bathroom with Body Jets', desc: 'Premium dark granite wall bathroom featuring concealed body shower jets, thermostat diverter valve, and Cera wash basin.' },
+      { src: 'gallery-7.jpg', title: 'Jaquar Chrome Diverter & Bath Spout', desc: 'High-precision Jaquar single-lever diverter and bath spout fitting on grey marble tile wall.' },
+      { src: 'gallery-8.jpg', title: 'Water Tank, Pressure Pump & Filter Plant', desc: 'Overhead 150L water tank installation with pressure booster pump setup and multi-stage water purification filters.' }
+    ];
+
+    let lightboxIndex = 0;
+    const lightboxModal = document.getElementById('lightbox-modal');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+
+    function openLightbox(index) {
+      lightboxIndex = index;
+      updateLightboxContent();
+      if (lightboxModal) lightboxModal.classList.add('open');
+      stopAutoSlide();
+    }
+
+    function closeLightbox(event) {
+      if (!event || event.target === lightboxModal || event.target.classList.contains('lightbox-close')) {
+        if (lightboxModal) lightboxModal.classList.remove('open');
+        startAutoSlide();
+      }
+    }
+
+    function updateLightboxContent() {
+      if (galleryData[lightboxIndex] && lightboxImg && lightboxCaption) {
+        lightboxImg.src = galleryData[lightboxIndex].src;
+        lightboxCaption.innerHTML = '<h3>' + galleryData[lightboxIndex].title + '</h3><p>' + galleryData[lightboxIndex].desc + '</p>';
+      }
+    }
+
+    function lightboxNav(dir, event) {
+      if (event) event.stopPropagation();
+      lightboxIndex += dir;
+      if (lightboxIndex >= galleryData.length) lightboxIndex = 0;
+      if (lightboxIndex < 0) lightboxIndex = galleryData.length - 1;
+      updateLightboxContent();
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (lightboxModal && lightboxModal.classList.contains('open')) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') lightboxNav(-1);
+        if (e.key === 'ArrowRight') lightboxNav(1);
+      } else {
+        if (e.key === 'ArrowLeft') prevSlide();
+        if (e.key === 'ArrowRight') nextSlide();
+      }
+    });
 
     // ---- Smooth scroll ----
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
