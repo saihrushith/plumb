@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E5FD5"/>
+      <stop offset="100%" stop-color="#0097C7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#favGrad)"/>
+  <!-- Plumbing Wrench Icon -->
+  <path d="M 43.5 16.5 C 39.5 14 34.5 15 31.5 18 C 29.5 20 29 22.8 29.8 25 L 18.5 36.3 C 17 37.8 17 40.2 18.5 41.7 L 22.3 45.5 C 23.8 47 26.2 47 27.7 45.5 L 39 34.2 C 41.2 35 44 34.5 46 32.5 C 49 29.5 50 24.5 47.5 20.5 L 41.5 26.5 L 37.5 22.5 Z" fill="#FFFFFF" filter="url(#shadow)"/>
+  <!-- Water Drop Accent -->
+  <path d="M 48 40 C 48 40 43 45 43 48 C 43 50.8 45.2 53 48 53 C 50.8 53 53 50.8 53 48 C 53 45 48 40 48 40 Z" fill="#60A5FA"/>
+</svg>
