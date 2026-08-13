@@ -352,7 +352,7 @@
     </div>
   </section>
 
-  <!-- ===== PROJECT GALLERY CAROUSEL ===== -->
+  <!-- ===== PROJECT GALLERY SLIDESHOW ===== -->
   <section class="section gallery-section" id="gallery">
     <div class="container">
       <div class="section-header">
@@ -361,118 +361,142 @@
         <p class="section-subtitle">Take a look at actual plumbing installations, fittings, and repair work completed by our expert team in Miyapur &amp; Hyderabad.</p>
       </div>
 
-      <div class="carousel-wrapper">
-        <button class="carousel-arrow carousel-prev" id="carousel-prev" aria-label="Previous Projects">&#10094;</button>
-
-        <div class="carousel-viewport" id="carousel-viewport">
-          <div class="carousel-track" id="carousel-track">
-            <!-- Project Card 1 -->
-            <div class="project-card" onclick="openLightbox(0)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-1.jpg" alt="Concealed Grohe Cistern &amp; Pipeline Work" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
+      <div class="slideshow-wrapper">
+        <div class="slideshow-container" id="slideshow-container">
+          <div class="slideshow-track" id="slideshow-track">
+            <!-- Slide 1 -->
+            <div class="slide-item active" data-index="0">
+              <div class="slide-img-wrap" onclick="openLightbox(0)">
+                <img src="gallery-1.jpg" alt="Concealed Grohe Cistern &amp; Drainage Piping Installation" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
               </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">Concealed Plumbing</span>
-                <h3>Grohe Cistern &amp; Pipeline Work</h3>
-                <p>Grohe concealed flush tank frame, CPVC supply lines &amp; heavy PVC drainage piping.</p>
+              <div class="slide-caption">
+                <h3>Concealed Grohe Cistern &amp; Pipeline Work</h3>
+                <p>Under-construction bathroom plumbing featuring Grohe concealed flush tank frame, CPVC water supply lines &amp; heavy-duty PVC drainage piping.</p>
               </div>
             </div>
 
-            <!-- Project Card 2 -->
-            <div class="project-card" onclick="openLightbox(1)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-2.jpg" alt="Modern Bathroom &amp; Wall-Mounted WC Setup" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
+            <!-- Slide 2 -->
+            <div class="slide-item" data-index="1">
+              <div class="slide-img-wrap" onclick="openLightbox(1)">
+                <img src="gallery-2.jpg" alt="Modern Completed Bathroom with Wall-Hung WC &amp; Vanity" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
               </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">Sanitary Fitting</span>
-                <h3>Modern Bathroom &amp; Wall WC</h3>
-                <p>Wall-hung closet, health faucet, chrome flush plate &amp; vanity wash basin.</p>
+              <div class="slide-caption">
+                <h3>Modern Bathroom &amp; Wall-Mounted WC Setup</h3>
+                <p>Fully installed wall-hung toilet closet with health faucet, chrome flush plate, designer wall tiles, and ceramic vanity wash basin.</p>
               </div>
             </div>
 
-            <!-- Project Card 3 -->
-            <div class="project-card" onclick="openLightbox(2)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-3.jpg" alt="Indian Closet &amp; Tile Fitting" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
+            <!-- Slide 3 -->
+            <div class="slide-item" data-index="2">
+              <div class="slide-img-wrap" onclick="openLightbox(2)">
+                <img src="gallery-3.jpg" alt="Indian Closet Installation &amp; Bathroom Tiling" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
               </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">Toilet &amp; Tiling</span>
+              <div class="slide-caption">
                 <h3>Indian Closet &amp; Tile Fitting</h3>
-                <p>Squatting Indian pan, step-up platform, floor drain &amp; brass taps.</p>
+                <p>Precision-fitted squatting Indian toilet pan with step-up tiled platform, floor drain, and dual brass water taps.</p>
               </div>
             </div>
 
-            <!-- Project Card 4 -->
-            <div class="project-card" onclick="openLightbox(3)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-4.jpg" alt="Bathroom Flooring &amp; Slope Drainage" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
+            <!-- Slide 4 -->
+            <div class="slide-item" data-index="3">
+              <div class="slide-img-wrap" onclick="openLightbox(3)">
+                <img src="gallery-4.jpg" alt="Precision Bathroom Flooring &amp; Slope Drainage" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
               </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">Drainage &amp; Flooring</span>
-                <h3>Flooring &amp; Slope Drainage</h3>
-                <p>Non-slip tile laying, slope gradient &amp; anti-clog floor drainage.</p>
-              </div>
-            </div>
-
-            <!-- Project Card 5 -->
-            <div class="project-card" onclick="openLightbox(4)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-5.jpg" alt="Luxury Bathroom &amp; Shower Panel Fitting" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
-              </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">Luxury Fitting</span>
-                <h3>Luxury Bathroom &amp; Shower Panel</h3>
-                <p>Marble finish bathroom with multi-jet shower panel &amp; wall-hung closet.</p>
+              <div class="slide-caption">
+                <h3>Bathroom Flooring &amp; Slope Drainage</h3>
+                <p>Custom non-slip tile installation with anti-clog floor drains and proper water flow slope gradient.</p>
               </div>
             </div>
 
-            <!-- Project Card 6 -->
-            <div class="project-card" onclick="openLightbox(5)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-6.jpg" alt="Black Granite Bathroom with Body Jets" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
+            <!-- Slide 5 -->
+            <div class="slide-item" data-index="4">
+              <div class="slide-img-wrap" onclick="openLightbox(4)">
+                <img src="gallery-5.jpg" alt="Luxury Bathroom Shower Panel &amp; Concealed Flush" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
               </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">Shower Systems</span>
-                <h3>Black Granite &amp; Body Jets</h3>
-                <p>Granite wall with concealed body jets, thermostat diverter &amp; Cera basin.</p>
-              </div>
-            </div>
-
-            <!-- Project Card 7 -->
-            <div class="project-card" onclick="openLightbox(6)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-7.jpg" alt="Jaquar Chrome Diverter &amp; Spout Fitting" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
-              </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">CP Fittings</span>
-                <h3>Jaquar Chrome Diverter &amp; Spout</h3>
-                <p>Jaquar single-lever bath diverter &amp; high-gloss spout fitting.</p>
+              <div class="slide-caption">
+                <h3>Luxury Bathroom &amp; Shower Panel Fitting</h3>
+                <p>Modern marble-finish bathroom with multi-jet shower panel, wall-hung closet, and dual-flush actuator plate.</p>
               </div>
             </div>
 
-            <!-- Project Card 8 -->
-            <div class="project-card" onclick="openLightbox(7)">
-              <div class="pcard-img-wrap">
-                <img src="gallery-8.jpg" alt="Water Storage Tank, Booster Pump &amp; Filter Plant" class="pcard-img" />
-                <span class="pcard-zoom-icon">&#128065;</span>
+            <!-- Slide 6 -->
+            <div class="slide-item" data-index="5">
+              <div class="slide-img-wrap" onclick="openLightbox(5)">
+                <img src="gallery-6.jpg" alt="Black Granite Bathroom with Body Jets &amp; Thermostat" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
               </div>
-              <div class="pcard-content">
-                <span class="pcard-tag">Water Storage</span>
-                <h3>Water Tank &amp; Pressure Pump</h3>
-                <p>150L overhead storage tank, booster pump &amp; filtration plant.</p>
+              <div class="slide-caption">
+                <h3>Black Granite Bathroom with Body Jets</h3>
+                <p>Premium dark granite wall bathroom featuring concealed body shower jets, thermostat diverter valve, and Cera wash basin.</p>
+              </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="slide-item" data-index="6">
+              <div class="slide-img-wrap" onclick="openLightbox(6)">
+                <img src="gallery-7.jpg" alt="Jaquar High-Gloss Chrome Diverter &amp; Spout Fitting" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
+              </div>
+              <div class="slide-caption">
+                <h3>Jaquar Chrome Diverter &amp; Bath Spout</h3>
+                <p>High-precision Jaquar single-lever diverter and bath spout fitting on grey marble tile wall.</p>
+              </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="slide-item" data-index="7">
+              <div class="slide-img-wrap" onclick="openLightbox(7)">
+                <img src="gallery-8.jpg" alt="Water Storage Tank, Booster Pump &amp; Filtration Plant" class="slide-img" />
+                <span class="zoom-badge">&#128065; View Fullscreen</span>
+              </div>
+              <div class="slide-caption">
+                <h3>Water Tank, Pressure Pump &amp; Filter Plant</h3>
+                <p>Overhead 150L water tank installation with pressure booster pump setup and multi-stage water purification filters.</p>
               </div>
             </div>
           </div>
+
+          <!-- Controls -->
+          <button class="slide-arrow slide-prev" id="slide-prev" aria-label="Previous Slide">&#10094;</button>
+          <button class="slide-arrow slide-next" id="slide-next" aria-label="Next Slide">&#10095;</button>
+
+          <div class="slide-badge-counter">
+            <span id="current-slide-num">1</span> / 8
+          </div>
         </div>
 
-        <button class="carousel-arrow carousel-next" id="carousel-next" aria-label="Next Projects">&#10095;</button>
+        <!-- Thumbnails Strip -->
+        <div class="thumbnails-container">
+          <button class="thumb-item active" onclick="goToSlide(0)">
+            <img src="gallery-1.jpg" alt="Project 1" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(1)">
+            <img src="gallery-2.jpg" alt="Project 2" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(2)">
+            <img src="gallery-3.jpg" alt="Project 3" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(3)">
+            <img src="gallery-4.jpg" alt="Project 4" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(4)">
+            <img src="gallery-5.jpg" alt="Project 5" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(5)">
+            <img src="gallery-6.jpg" alt="Project 6" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(6)">
+            <img src="gallery-7.jpg" alt="Project 7" />
+          </button>
+          <button class="thumb-item" onclick="goToSlide(7)">
+            <img src="gallery-8.jpg" alt="Project 8" />
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -689,7 +713,7 @@
 
     // ---- Scroll reveal ----
     const revealElements = document.querySelectorAll(
-      '.feature-card, .service-card, .intro-card, .testimonial-card, .stat-card, .cta-badge, .project-card'
+      '.feature-card, .service-card, .intro-card, .testimonial-card, .stat-card, .cta-badge, .slideshow-wrapper'
     );
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -701,70 +725,85 @@
     }, { threshold: 0.1 });
     revealElements.forEach(el => observer.observe(el));
 
-    // ---- Multi-Card Horizontal Carousel Controller ----
-    let carouselPos = 0;
-    const carouselTrack = document.getElementById('carousel-track');
-    const carouselPrev = document.getElementById('carousel-prev');
-    const carouselNext = document.getElementById('carousel-next');
-    let autoCarouselTimer = null;
+    // ---- Gallery Slideshow Controller ----
+    let currentSlide = 0;
+    const track = document.getElementById('slideshow-track');
+    const slides = document.querySelectorAll('.slide-item');
+    const thumbs = document.querySelectorAll('.thumb-item');
+    const counterNum = document.getElementById('current-slide-num');
+    const totalSlides = slides.length;
+    let autoSlideTimer = null;
 
-    function getCardsPerView() {
-      if (window.innerWidth <= 600) return 1;
-      if (window.innerWidth <= 992) return 2;
-      return 3;
-    }
+    function showSlide(index) {
+      if (index >= totalSlides) currentSlide = 0;
+      else if (index < 0) currentSlide = totalSlides - 1;
+      else currentSlide = index;
 
-    function updateCarousel() {
-      const cardsPerView = getCardsPerView();
-      const totalCards = 8;
-      const maxPos = totalCards - cardsPerView;
+      if (track) {
+        track.style.transform = `translateX(-${currentSlide * 100}%)`;
+      }
 
-      if (carouselPos > maxPos) carouselPos = 0;
-      if (carouselPos < 0) carouselPos = maxPos;
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === currentSlide);
+      });
+      thumbs.forEach((thumb, i) => {
+        thumb.classList.toggle('active', i === currentSlide);
+      });
+      if (counterNum) counterNum.textContent = currentSlide + 1;
 
-      const cardWidthPercent = 100 / cardsPerView;
-      const shiftPercent = carouselPos * cardWidthPercent;
-      if (carouselTrack) {
-        carouselTrack.style.transform = `translateX(-${shiftPercent}%)`;
+      // Safely scroll active thumbnail within thumb container ONLY (no page scrolling!)
+      const thumbContainer = document.querySelector('.thumbnails-container');
+      const activeThumb = thumbs[currentSlide];
+      if (thumbContainer && activeThumb) {
+        const containerWidth = thumbContainer.clientWidth;
+        const thumbLeft = activeThumb.offsetLeft;
+        const thumbWidth = activeThumb.clientWidth;
+        thumbContainer.scrollTo({
+          left: thumbLeft - (containerWidth / 2) + (thumbWidth / 2),
+          behavior: 'smooth'
+        });
       }
     }
 
-    function nextCarousel() {
-      carouselPos++;
-      updateCarousel();
+    function goToSlide(index) {
+      showSlide(index);
+      resetAutoSlide();
     }
 
-    function prevCarousel() {
-      carouselPos--;
-      updateCarousel();
+    function nextSlide() {
+      showSlide(currentSlide + 1);
     }
 
-    if (carouselNext) carouselNext.addEventListener('click', () => { nextCarousel(); resetAutoCarousel(); });
-    if (carouselPrev) carouselPrev.addEventListener('click', () => { prevCarousel(); resetAutoCarousel(); });
+    function prevSlide() {
+      showSlide(currentSlide - 1);
+    }
 
-    function startAutoCarousel() {
-      stopAutoCarousel();
-      autoCarouselTimer = setInterval(() => {
-        nextCarousel();
+    const prevBtn = document.getElementById('slide-prev');
+    const nextBtn = document.getElementById('slide-next');
+    if (prevBtn) prevBtn.addEventListener('click', () => { prevSlide(); resetAutoSlide(); });
+    if (nextBtn) nextBtn.addEventListener('click', () => { nextSlide(); resetAutoSlide(); });
+
+    function startAutoSlide() {
+      stopAutoSlide();
+      autoSlideTimer = setInterval(() => {
+        nextSlide();
       }, 3500);
     }
 
-    function stopAutoCarousel() {
-      if (autoCarouselTimer) clearInterval(autoCarouselTimer);
+    function stopAutoSlide() {
+      if (autoSlideTimer) clearInterval(autoSlideTimer);
     }
 
-    function resetAutoCarousel() {
-      startAutoCarousel();
+    function resetAutoSlide() {
+      startAutoSlide();
     }
 
-    const carouselViewport = document.getElementById('carousel-viewport');
-    if (carouselViewport) {
-      carouselViewport.addEventListener('mouseenter', stopAutoCarousel);
-      carouselViewport.addEventListener('mouseleave', startAutoCarousel);
-      startAutoCarousel();
+    const slideshowWrapper = document.getElementById('slideshow-container');
+    if (slideshowWrapper) {
+      slideshowWrapper.addEventListener('mouseenter', stopAutoSlide);
+      slideshowWrapper.addEventListener('mouseleave', startAutoSlide);
+      startAutoSlide();
     }
-
-    window.addEventListener('resize', updateCarousel);
 
     // ---- Lightbox Controller ----
     const galleryData = [
